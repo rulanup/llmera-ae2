@@ -21,6 +21,7 @@ import java.util.EnumSet;
 public final class Ae2NetworkBridgeBlockEntity extends BlockEntity
         implements CodeNetworkMember, IInWorldGridNodeHost {
     public static final int CHANNEL_DEMAND = 8;
+    public static final int CODE_CHANNEL_DEMAND = 1;
     private static final int EXPOSED_NODE = 0;
     private static final IGridNodeListener<Ae2NetworkBridgeBlockEntity> NODE_LISTENER =
             (bridge, node) -> bridge.setChanged();
@@ -145,6 +146,6 @@ public final class Ae2NetworkBridgeBlockEntity extends BlockEntity
 
     @Override
     public int channelDemand() {
-        return CHANNEL_DEMAND;
+        return CODE_CHANNEL_DEMAND;
     }
 }
