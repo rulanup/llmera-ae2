@@ -1,0 +1,22 @@
+{
+  "itemGroup.llmera_ae2": "LLM 时代: AE2",
+  "block.llmera.ae2_network_bridge": "AE2 网络桥接器",
+  "item.llmera.ae2_network_bridge": "AE2 网络桥接器",
+  "config.jade.plugin_llmera_ae2.network_status": "AE2 桥接网络状态",
+  "tooltip.llmera_ae2.jade.code_network": "代码网络: %s",
+  "tooltip.llmera_ae2.jade.code_bridge_channels": "代码桥接频道: %s/%s",
+  "tooltip.llmera_ae2.jade.bridge": "桥接可用: %s",
+  "tooltip.llmera_ae2.jade.ae2_network": "AE2 网络: %s",
+  "tooltip.llmera_ae2.jade.ae2_channels": "AE2 频道: %s/%s",
+  "tooltip.llmera_ae2.jade.physical_cable": "物理 AE2 线缆: %s",
+  "tooltip.llmera_ae2.jade.online": "在线",
+  "tooltip.llmera_ae2.jade.offline": "离线",
+  "tooltip.llmera_ae2.jade.no_controller": "无控制器",
+  "tooltip.llmera_ae2.jade.no_power": "无电力",
+  "tooltip.llmera_ae2.jade.no_channel": "无代码频道",
+  "tooltip.llmera_ae2.jade.ready": "可用",
+  "tooltip.llmera_ae2.jade.not_ready": "不可用",
+  "tooltip.llmera_ae2.jade.connected": "已连接",
+  "tooltip.llmera_ae2.jade.disconnected": "未连接",
+  "tooltip.llmera_ae2.jade.scan_truncated": "代码网络扫描已截断"
+}

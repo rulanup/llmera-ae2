@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All Rights Reserved"
+
+[[mods]]
+modId="llmera_ae2"
+version="${mod_version}"
+displayName="LLM Era AE2 Integration"
+description='''Optional Applied Energistics 2 tools and network bridge for LLM Era.'''
+
+[[dependencies.llmera_ae2]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.llmera_ae2]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.llmera_ae2]]
+modId="llmera"
+type="required"
+versionRange="[${mod_version},)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.llmera_ae2]]
+modId="ae2"
+type="required"
+versionRange="[19.2,19.3)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.llmera_ae2]]
+modId="jade"
+type="optional"
+versionRange="[15.10.5,16)"
+ordering="AFTER"
+side="BOTH"

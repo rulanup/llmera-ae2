@@ -1,0 +1,22 @@
+{
+  "itemGroup.llmera_ae2": "LLM Era: AE2",
+  "block.llmera.ae2_network_bridge": "AE2 Network Bridge",
+  "item.llmera.ae2_network_bridge": "AE2 Network Bridge",
+  "config.jade.plugin_llmera_ae2.network_status": "AE2 Bridge Network Status",
+  "tooltip.llmera_ae2.jade.code_network": "Code network: %s",
+  "tooltip.llmera_ae2.jade.code_bridge_channels": "Code bridge channels: %s/%s",
+  "tooltip.llmera_ae2.jade.bridge": "Bridge ready: %s",
+  "tooltip.llmera_ae2.jade.ae2_network": "AE2 network: %s",
+  "tooltip.llmera_ae2.jade.ae2_channels": "AE2 channels: %s/%s",
+  "tooltip.llmera_ae2.jade.physical_cable": "Physical AE2 cable: %s",
+  "tooltip.llmera_ae2.jade.online": "Online",
+  "tooltip.llmera_ae2.jade.offline": "Offline",
+  "tooltip.llmera_ae2.jade.no_controller": "No controller",
+  "tooltip.llmera_ae2.jade.no_power": "No power",
+  "tooltip.llmera_ae2.jade.no_channel": "No code channel",
+  "tooltip.llmera_ae2.jade.ready": "ready",
+  "tooltip.llmera_ae2.jade.not_ready": "not ready",
+  "tooltip.llmera_ae2.jade.connected": "Connected",
+  "tooltip.llmera_ae2.jade.disconnected": "Disconnected",
+  "tooltip.llmera_ae2.jade.scan_truncated": "Code network scan truncated"
+}
