@@ -40,7 +40,14 @@ public final class Ae2NetworkBridgeBlockEntity extends BlockEntity
             }
             ae2Nodes[i] = node;
         }
-        GridHelper.onFirstTick(this, Ae2NetworkBridgeBlockEntity::createAe2Nodes);
+    }
+
+    @Override
+    public void onLoad() {
+        super.onLoad();
+        if (level != null && !level.isClientSide) {
+            createAe2Nodes();
+        }
     }
 
     public Component getDisplayName() {
@@ -125,7 +132,9 @@ public final class Ae2NetworkBridgeBlockEntity extends BlockEntity
     @Override
     public void clearRemoved() {
         super.clearRemoved();
-        GridHelper.onFirstTick(this, Ae2NetworkBridgeBlockEntity::createAe2Nodes);
+        if (level != null && !level.isClientSide) {
+            createAe2Nodes();
+        }
     }
 
     private void destroyAe2Nodes() {
